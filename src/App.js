@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function App() {
 
-  const [userWord, setUserWord] = useState("")
+  const [userWord, setUserWord] = useState('')
   const [searchedData, setSearchedData] = useState([{'a':''}])
 
   const data = [
