@@ -24,7 +24,6 @@ function App() {
   return (
     <>
 
-      {console.log("SearchedData",searchedData)}
       <h1>Dictionary App</h1>
       <input onChange={(e)=>{setUserWord(e.target.value)}} type='text' placeholder='Search for a word...' value={userWord} />
       <button onClick={handleSearch}>Search</button>
